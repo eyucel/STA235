@@ -21,3 +21,6 @@ Auto$C1 = (Auto$cylinders<=4)
 Auto$C2 = (Auto$cylinders==5 | Auto$cylinders==6 | Auto$cylinders==7)
 Auto$C3 = (Auto$cylinders>=8)
 
+con <- url("https://github.com/eyucel/STA235/raw/main/ts.RData")
+load(con)
+rm(con)
