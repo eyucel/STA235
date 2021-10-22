@@ -17,9 +17,9 @@ rm(state.x77, state.abb, state.area, state.division, state.name, state.region, s
 
 diamonds <- ggplot2::diamonds
 data(Auto)
-Auto$C1 = (Auto$cylinders<=4)
-Auto$C2 = (Auto$cylinders==5 | Auto$cylinders==6 | Auto$cylinders==7)
-Auto$C3 = (Auto$cylinders>=8)
+Auto$C1 = 1*(Auto$cylinders<=4)
+Auto$C2 = 1*(Auto$cylinders==5 | Auto$cylinders==6 | Auto$cylinders==7)
+Auto$C3 = 1*(Auto$cylinders>=8)
 
 con <- url("https://github.com/eyucel/STA235/raw/main/ts.RData")
 load(con)
