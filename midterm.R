@@ -1,3 +1,5 @@
+rm(list = ls())
+
 install.packages(c("tidyverse",
                    "mosaic",
                    "car",
