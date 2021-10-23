@@ -3,7 +3,7 @@ install.packages(c("tidyverse",
                    "car",
                    "ggfortify",
                    "ISLR"
-                   ), type="win.binary")
+                   ), type="binary")
 
 library(tidyverse)
 library(mosaic)
