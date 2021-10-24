@@ -2,14 +2,12 @@ rm(list = ls())
 
 install.packages(c("tidyverse",
                    "mosaic",
-                   "car",
                    "ggfortify",
                    "ISLR"
                    ), type="binary")
 
 library(tidyverse)
 library(mosaic)
-library(car)
 library(ggfortify)
 library(ISLR)
 
